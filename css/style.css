@@ -1,0 +1,93 @@
+/* Color Theme Swatches in Hex */
+.Color1 { color: #9C4AFF; }
+.Color2 { color: #8C43E6; }
+.Color3 { color: #7638C2; }
+.Color4 { color: #5E2C99; }
+.Color5 { color: #492378; }
+
+/* Color Theme Swatches in RGBA */
+.Bg1 { color: rgba(155, 73, 255, 1); }
+.Bg2 { color: rgba(139, 66, 229, 1); }
+.Bg3 { color: rgba(118, 56, 193, 1); }
+.Bg4 { color: rgba(93, 43, 153, 1); }
+.Bg5 { color: rgba(73, 34, 119, 1); }
+
+/* Color Theme Swatches in Hex */
+.Col-1 { color: #5C257F; }
+.Col-2 { color: #D697FF; }
+.Col-3 { color: #B84BFF; }
+.Col-4 { color: #6B4C7F; }
+.Col-5 { color: #933CCC; }
+
+/* Color Theme Swatches in RGBA */
+.Brg-1 { color: rgba(91, 37, 126, 1); }
+.Brg-2 { color: rgba(213, 150, 255, 1); }
+.Brg-3 { color: rgba(183, 75, 255, 1); }
+.Brg-4 { color: rgba(106, 75, 126, 1); }
+.Brg-5 { color: rgba(147, 59, 204, 1); }
+
+header{
+    height: 40vh;
+    background-image: url(../img/Portada.jpg);
+}
+.principal{
+    /* display: flex; */
+    padding: 10px;
+}
+.logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+}
+.caja_texto{
+    color: #492378;
+    
+    font-size: 100%;
+    align-items: center;
+    height: 100%;
+    text-shadow: 2px 1px 2px black;
+}
+
+nav{
+    background-color: #9C4AFF;
+    height: 5%;
+}
+nav ul{
+    display: flex;
+    padding: 1px;
+    list-style: none;
+    justify-content: center;
+}
+li, a{
+    margin-right: 30px;
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+a:hover{
+    color: #492378;
+    font-size: 22px;
+}
+section{
+    border:2px solid cyan;
+    height: 100vh;
+    display: flex;
+}
+.contenedor{
+    border: 2px solid black;
+    width: 100%;
+    height: 50%;
+    margin: 10px;
+}
+.contenedor-img{
+    border: 2px solid blue;
+    width: 5%;
+    /* height: 5%; */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    }
