@@ -6,11 +6,11 @@
 .Color5 { color: #492378; }
 
 /* Color Theme Swatches in RGBA */
-.Bg1 { color: rgba(155, 73, 255, 1); }
-.Bg2 { color: rgba(139, 66, 229, 1); }
-.Bg3 { color: rgba(118, 56, 193, 1); }
-.Bg4 { color: rgba(93, 43, 153, 1); }
-.Bg5 { color: rgba(73, 34, 119, 1); }
+.Bg1 { Background-color: rgba(155, 73, 255, 1); }
+.Bg2 { Background-color: rgba(139, 66, 229, 1); }
+.Bg3 { Background-color: rgba(118, 56, 193, 1); }
+.Bg4 { Background-color: rgba(93, 43, 153, 1); }
+.Bg5 { Background-color: rgba(73, 34, 119, 1); }
 
 /* Color Theme Swatches in Hex */
 .Col-1 { color: #5C257F; }
@@ -20,12 +20,15 @@
 .Col-5 { color: #933CCC; }
 
 /* Color Theme Swatches in RGBA */
-.Brg-1 { color: rgba(91, 37, 126, 1); }
-.Brg-2 { color: rgba(213, 150, 255, 1); }
-.Brg-3 { color: rgba(183, 75, 255, 1); }
-.Brg-4 { color: rgba(106, 75, 126, 1); }
-.Brg-5 { color: rgba(147, 59, 204, 1); }
+.Brg-1 { Background-color: rgba(91, 37, 126, 1); }
+.Brg-2 { Background-color: rgba(213, 150, 255, 1); }
+.Brg-3 { Background-color: rgba(183, 75, 255, 1); }
+.Brg-4 { Background-color: rgba(106, 75, 126, 1); }
+.Brg-5 { Background-color: rgba(147, 59, 204, 1); }
 
+body{
+    background-color: black;
+}
 header{
     height: 40vh;
     background-image: url(../img/Portada.jpg);
@@ -44,14 +47,12 @@ header{
     width: 100px;
 }
 .caja_texto{
-    color: #492378;
-    
+    color: #492378;  
     font-size: 100%;
     align-items: center;
     height: 100%;
     text-shadow: 2px 1px 2px black;
 }
-
 nav{
     background-color: #9C4AFF;
     height: 5%;
@@ -64,7 +65,7 @@ nav ul{
 }
 li, a{
     margin-right: 30px;
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -73,21 +74,16 @@ a:hover{
     color: #492378;
     font-size: 22px;
 }
-section{
-    border:2px solid cyan;
-    height: 100vh;
-    display: flex;
-}
 .contenedor{
-    border: 2px solid black;
     width: 100%;
-    height: 50%;
-    margin: 10px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
 }
 .contenedor-img{
-    border: 2px solid blue;
-    width: 5%;
-    /* height: 5%; */
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    }
+    width: 30%;
+    height: 10vh;
+}
+h6{
+    color: white;
+}
